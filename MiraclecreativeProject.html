@@ -1,1 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title >MiraclecreativeProject</title>
+</head>
+<body>
+  <div class="header-block" style="border-width: 100%; height: 140px; margin: 0px;">
+    
+    <img href="http://127.0.0.1:5501/MiraclecreativeProject.html" src="miracleimgs/logo7.png" class="logo" alt="" decoding="async" >
+    <a class="company-button" style="word-spacing: 2px;">Company<span class="down-arrow" >
+      <select>
+      <option value="dropdown"> </option>
+      <option value="aboutus">About Us</option>
+      <option href="http://127.0.0.1:5501/contact-us.html" value="contactus">Contact Us</option>
+      </select>
+    </a>
 
+    <a href="http://127.0.0.1:5501/events.html" class="events-button">Events</a>
+    <a href="http://127.0.0.1:5501/library.html" class="library-button">Library</a>
+    <a href="http://127.0.0.1:5501/services.html" class="Services-button">Services</a>
+    <a href="http://127.0.0.1:5501/contact-us.html">
+      <button class="contactus-button">Contact Us&#8599;</button>
+    </a>
+  </div>
+
+  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="presentation"> </div>
+  <img src="miracleimgs/slide1-1.jpg" style="width:100%">
+  <div class="text">Terminal Automation Software Development</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="technicalAI"> </div>
+  <img src="miracleimgs/Tecnical AI.jpg" style="width:100%">
+  <div class="text">Technical Expertise in Artificial Intellegence</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="build-your-career"> </div>
+  <img src="miracleimgs/slide-2-1.jpg" style="width:100%">
+  <div class="text">Build A Carrier with Us</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="slide3"> </div>
+  <img src="miracleimgs/slide-3.jpg" style="width:100%">
+  <div class="text">Embedded and Firmware Software</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="slide4"> </div>
+  <img src="miracleimgs/slide-4.jpg" style="width:100%">
+  <div class="text">Industrial Application Development</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="slide5"> </div>
+  <img src="miracleimgs/slide-5.jpg" style="width:100%">
+  <div class="text">Emulation of Software Development</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="slide6"> </div>
+  <img src="miracleimgs/slide-6.jpg" style="width:100%">
+  <div class="text">Testing Automation and Manual Testing</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="slide7"> </div>
+  <img src="miracleimgs/slide-7.jpg" style="width:100%">
+  <div class="text">Verification And Validation</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center ">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+
+</div>
+<h1 class="our-services" style="text-align: center">Our Services</h1>
+<div  id="container">
+  <div class="column1">
+    <h2 >Terminal Automation Software Development</h2>
+     <p1>MCS involving in <br>
+       the terminal <br>
+       automation <br>
+       projects <br>
+       development. <br>
+       Software <br>
+       development for <br>
+       product <br>
+       management <br>
+       and its <br>
+       component.<br>
+     </p1>
+  </div>
+
+  <div class="column2">
+   <h2 >Technical Expertise</h2>
+   <p1>MCS supplying <br>
+     highly qualified <br>
+     and trained <br>
+     manpower for <br>
+     Artificial <br>
+     Intellegence(AI). <br>
+     MCS Engineers <br>
+     are more <br>
+     experienced and <br>
+     world class <br>
+     standards. MCS<br>
+     has software <br>
+     experts in <br>
+     computer<br>
+     languages like<br>
+     C,C++, JAVA, SQL, <br>
+     MySQL etc.<br>
+    </p1>
+ </div>
+
+ <div class="column3">
+   <h2 >Industrial Application Development</h2>
+   <p1>MCS involving in <br>
+     the software <br>
+     development for <br>
+     SCADA, <br>
+     Automobile, <br>
+     Transportation, <br>
+     Medical and R&D <br>
+     products <br>
+   </p1>
+ </div>
+
+ <div class="column4">
+   <h2 >Embedded and Firmware Software</h2>
+   <p1>MCS involving software <br>
+     development for Board Bring<br>
+     up, BIOS, Kernel and driver<br>
+     development for any kind of<br>
+     applications.<br>
+   </p1>
+ </div>
+ <div class="column5">
+   <h2 >Test Automation and Manual Testing</h2>
+   <p1>MCS has team of highly <br>
+     qualified engineers for<br>
+     product automation, Test<br>
+     automation, Manual testing,<br>
+     Black box testing, white box<br>
+     testing and code coverage<br>
+     development.<br>
+    
+   </p1>
+  </div>
+</div>
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); 
+  }
+  </script>
+
+<div class="events-main" >
+  <h class="event-heading" style="margin-bottom: 20px;">Events</h>
+  <img src="miracleimgs/team1.jpg"  class="team" alt="" decoding="async" fetchpriority="high"  >
+   
+        <h1 class="head1"> 
+          Meeting with marketing teams
+        </h1>
+        <div class="content1" style="margin-bottom: 20px;">
+          " Our Marketing team focused,
+          encourage open communication,
+          and ensure that everyone has the 
+          opportunity to contribute. This 
+          agenda can be adjusted based on
+          the specific needs and 
+          priorities of your marketing 
+          team."
+        </div>
+  
+  
+  
+  <img src="miracleimgs/presentation.jpg" class="product-presentation" alt="" decoding="async">
+ 
+      <h2 class="head2">
+        Product Presentation
+      </h2>
+      <div class="content2" style="margin-bottom: 20px;">
+        "At MCS, we believe in the 
+        power of innovation to transform 
+        industries. Our suite of tools 
+        is crafted to empower businesses 
+        like yours to thrive in the 
+        digital era."
+      </div>
+   
+
+  <img src="miracleimgs/course_img-4.jpeg" class="meeting" alt="" decoding="async">
+  
+      <h2 class="head3">
+        Meeting with Service Teams
+      </h2>
+      <div class="content3" style="margin-bottom: 20px;">
+        "At MCS, we understand that 
+        exceptional customer support is 
+        at the heart of every successful 
+        business. As your dedicated 
+        service team, we are committed 
+        to providing unparalleled 
+        support that not only meets but 
+        exceeds your customer's 
+        expectations."
+      </div>   
+</div>
+  <div class="last-block" >
+    
+    <img src="miracleimgs/logo7.png" class="logo-2" alt="" decoding="async" style="height: 700px;">
+  </div>
+</body>
